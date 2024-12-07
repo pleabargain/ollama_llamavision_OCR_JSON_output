@@ -1,0 +1,6 @@
+# requirements.txt
+ollama
+pydantic
+streamlit
+pillow
+psutil
