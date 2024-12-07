@@ -5,7 +5,11 @@ This is a Streamlit application that demonstrates the use of Llama Vision model 
 url
 https://github.com/pleabargain/ollama_llamavision_OCR_JSON_output
 
+run ollama in github codespaces
 
+```curl -fsSL https://ollama.com/install.sh | sh```
+
+```ollama run llama3.2-vision:11b```
 
 ## ⚠️ Important Notes
 
@@ -32,6 +36,7 @@ pip install -r requirements.txt
 ```bash
 ollama pull llama3.2-vision
 ```
+3.1 for github codespaces you get 6GB so running llama3.2-vision 11B version is NOT going work.
 
 ## Usage
 
